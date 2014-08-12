@@ -36,7 +36,7 @@ import org.exoplatform.services.log.Log;
  * - cells with formula ({@link org.apache.poi.hssf.record.FormulaRecord}}
  */
 public class MSExcelDocumentReader_Stream_04 extends MSExcelDocumentReader {
-  private static final Log LOG = ExoLogger.getLogger("exo.core.component.document.MSExcelDocumentReader_Stream_02");
+  private static final Log LOG = ExoLogger.getLogger("exo.core.component.document.MSExcelDocumentReader_Stream_04");
   private static final int MAX_CELL = 5000;
 
   @Override

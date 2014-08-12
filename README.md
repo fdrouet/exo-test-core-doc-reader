@@ -9,3 +9,8 @@ test-core-doc-reader
     # Launch various XLS Doc Reader algorithm tests and generate JUnitBenchmark report
     mvn clean test -Djub.consumers=CONSOLE,H2 -Djub.db.file=.benchmarks -Dtest=*MSExcelDocumentReaderStreamTest
     
+## MSXExcelDocumentReader benchmarks
+
+    # Launch various XLSX Doc Reader algorithm tests
+    mvn clean test -Dtest=*MSXExcelDocumentReaderStreamTest
+
